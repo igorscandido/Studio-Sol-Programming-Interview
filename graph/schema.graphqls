@@ -1,0 +1,13 @@
+# GraphQL schema example
+#
+# https://gqlgen.com/getting-started/
+
+
+type Response {
+  number: Int!
+  value: String!
+}
+
+type Mutation {
+  search(text: String!): Response!
+}
